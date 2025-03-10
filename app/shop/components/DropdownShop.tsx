@@ -9,10 +9,11 @@ const DropdownShop = () => {
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="text-primary hover:bg-primary border-2 border-[#00246D] font-medium rounded-lg text-sm px-12 py-2.5 text-center inline-flex items-center "
+        className="text-primary hover:bg-primary border-2 border-[#00246D] font-medium rounded-lg text-sm ps-5 pe-20 max-lg:px-3
+        py-2.5  flex items-center text-start"
         type="button"
       >
-        Thứ tự mặc định
+        <span className="line-clamp-1">Thứ tự mặc định</span>
         <svg
           className="w-2.5 h-2.5 ms-3"
           aria-hidden="true"
@@ -31,7 +32,7 @@ const DropdownShop = () => {
       </button>
 
       {isOpen && (
-        <div className="absolute mt-2 z-10 bg-white divide-y border-2 border-[#00246D] divide-gray-100 rounded-lg shadow-sm w-56">
+        <div className="absolute mt-2 z-10 bg-white divide-y border-2 border-[#00246D] divide-gray-100 rounded-lg shadow-sm w-full">
           <ul className="py-2 text-sm text-gray-700 ">
             <li>
               <a href="#" className="block px-4 py-2 hover:bg-gray-100">

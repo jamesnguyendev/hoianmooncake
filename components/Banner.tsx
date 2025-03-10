@@ -10,7 +10,7 @@ const Banner = ({ desktop, mobile }: { desktop: string; mobile: string }) => {
         width={1000}
         height={100}
         quality={100}
-        className="w-full pt-26 hidden md:block"
+        className="w-full pt-26 object-contain hidden md:block"
       />
       <Image
         src={mobile}
@@ -18,7 +18,7 @@ const Banner = ({ desktop, mobile }: { desktop: string; mobile: string }) => {
         width={1000}
         height={100}
         quality={100}
-        className="w-full pt-26 md:hidden"
+        className="w-full object-contain pt-26 md:hidden"
       />
     </div>
   );

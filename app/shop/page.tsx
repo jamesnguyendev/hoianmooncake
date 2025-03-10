@@ -32,7 +32,7 @@ const Page = () => {
         Sản phẩm
       </span>
       <div className="container flex items-center justify-between mt-4">
-        <span className="">Hiển thị tất cả 25 kết quả</span>
+        <span className="line-clamp-1">Hiển thị tất cả 25 kết quả</span>
         <div className="">
           <DropdownShop />
         </div>

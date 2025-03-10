@@ -56,7 +56,9 @@ const CartShop = () => {
                   data-input-counter
                   className="w-10 shrink-0 border-0 bg-transparent text-center text-sm font-medium text-gray-900 focus:outline-none focus:ring-0 "
                   placeholder=""
-                  defaultValue={number}
+                  value={number}
+                  defaultValue={1}
+                  min={1}
                   required
                 />
                 <button

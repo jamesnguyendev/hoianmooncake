@@ -10,6 +10,7 @@ import ShareInfo from "./components/ShareInfo";
 import Programs from "./components/Programs";
 import COFounderFeedback from "./components/COFounderFeedback";
 import VideoIntro from "./components/VideoIntro";
+import ProductShowcase from "@/components/ProductShowcase";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
           secondImage="/images/nhan-banh-HA-08-1.png"
         />
       </div>
+      <ProductShowcase />
       <ButtonContact />
       <ProductCombo />
       <Programs />

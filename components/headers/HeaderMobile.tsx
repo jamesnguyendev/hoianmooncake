@@ -64,7 +64,7 @@ const HeaderMobile = () => {
               <Link href={"/shop"} onClick={closeMenu}>
                 sản phẩm
               </Link>
-              <Link href={"/catelogue"} onClick={closeMenu}>
+              <Link href={"/catalogue"} onClick={closeMenu}>
                 catelogue
               </Link>
               <Link href={"/hop-banh-trung-thu"} onClick={closeMenu}>
