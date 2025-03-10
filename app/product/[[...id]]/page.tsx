@@ -55,7 +55,7 @@ const Page = () => {
         </div>
       </section>
       <DescriptionProduct />
-      <ProductRelate deviceType="desktop" />
+      <ProductRelate />
     </div>
   );
 };
