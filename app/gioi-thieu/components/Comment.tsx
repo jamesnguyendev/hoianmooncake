@@ -4,10 +4,10 @@ const Comment = () => {
   return (
     <div className="flex flex-col items-center my-8">
       <div className="bg-[#fafafa] text-center flex flex-col gap-2 shadow-2xl rounded-2xl w-2/3 *:mx-6">
-        <h1 className="text-primary text-3xl font-semibold">
+        <h1 className="text-primary text-3xl font-semibold line-clamp-1">
           Để lại bình luận
         </h1>
-        <p className="text-sm">Địa chỉ email của bạn giữ bí mật.</p>
+        <p className="text-sm line-clamp-1">Địa chỉ email của bạn giữ bí mật.</p>
         <input
           type="text"
           placeholder="Tên của bạn"

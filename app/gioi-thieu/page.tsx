@@ -28,7 +28,7 @@ const imageMagazin: string[] = [
 
 const Page = () => {
   return (
-    <div>
+    <div className="-z-20">
       <HeroIntro />
       <TimeLine />
       <section className="my-6 container">
